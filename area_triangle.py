@@ -2,7 +2,7 @@
 
 # Created by: Peter
 # Created on: Mov 24 2022
-# This program calculates the area of a triangle using  functions
+# This program calculates the area of a triangle using functions
 
 
 def calculate_area(height, base):
@@ -17,19 +17,19 @@ def calculate_area(height, base):
 
 def main():
     # get the height and base
-    height_from_user_string = input("Enter the height of a rectangle (cm): ")
-    base_from_user_string = input("Enter the base of a rectangle (cm): ")
+    height_from_user_string = input("Enter the height of a triangle (cm): ")
+    base_from_user_string = input("Enter the base of a triangle (cm): ")
     print()
 
     try:
         # converts the height and base to floats
-        height_from_user_float = float(height_from_user_string)
-        base_from_user_float = float(base_from_user_string)
+        height_float = float(height_from_user_string)
+        base_float = float(base_from_user_string)
 
         # makes sure input is greater than 0
-        if base_from_user_float > 0 and height_from_user_float > 0:
+        if base_float > 0 and height_float > 0:
             # call the function to calculate the area
-            calculate_area(height_from_user_float, base_from_user_float)
+            calculate_area(height_float, base_float)
         else:
             # The inputs can't be negative or zero
             print("The base and height must be greater than 0.")
