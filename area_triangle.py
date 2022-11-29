@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Created by: Peter
-# Created on: Mov 24 2022
+# Created on: Nov 24 2022
 # This program calculates the area of a triangle using functions
 
 
